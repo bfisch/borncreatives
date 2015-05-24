@@ -323,6 +323,9 @@ POSTS & CONTENT STYLES
 		.page-title,
 		.entry-title {
 			margin: 0;
+			text-align: center;
+			border-bottom: 1px solid #888;
+			padding-bottom: 10px;
 		}
 
 		.single-title {}
@@ -400,6 +403,7 @@ POSTS & CONTENT STYLES
 			font-style: italic;
 			margin: 0;
 			padding: .5em 1em 0 1em;
+			text-align: center;
 
 			time {}
 		}
