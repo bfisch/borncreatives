@@ -203,6 +203,9 @@ them however you see fit.
   .d-2of7 {
     @include grid-col;
     width: 28.5714286%;
+
+    /* 5-24-15 */
+    width: 34%;
   }
 
   .d-3of7 {
@@ -218,6 +221,9 @@ them however you see fit.
   .d-5of7 {
     @include grid-col;
     width: 71.4285715%;
+
+    /* 5-24-15 */
+    width: 66%;
   }
 
   .d-6of7 {

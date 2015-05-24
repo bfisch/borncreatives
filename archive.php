@@ -4,7 +4,7 @@
 
 				<div id="inner-content" class="wrap cf">
 
-						<div id="main" class="m-all t-2of3 d-5of7 cf" role="main">
+						<div id="main" class="m-all t-2of3x t-3of5 d-5of7x d-2of3 cf" role="main">
 
 							<?php if (is_category()) { ?>
 								<h1 class="archive-title h2">

@@ -18,7 +18,7 @@
 
 				<div id="inner-content" class="wrap cf">
 
-						<div id="main" class="m-all t-2of3 d-5of7 cf" role="main">
+						<div id="main" class="m-all t-2of3x t-3of5 d-5of7x d-2of3 cf" role="main">
 
 							<h1 class="archive-title h2"><span><?php _e( 'Posts Categorized:', 'bonestheme' ); ?></span> <?php single_cat_title(); ?></h1>
 

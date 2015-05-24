@@ -21,7 +21,9 @@ body {
 	line-height: 1.5;
 	color: $text-color;
 	background-color: $gray;
-  -webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+
+	/* 5-24-15 */	background-color: white;
 }
 
 /********************
@@ -30,7 +32,16 @@ style a page via class
 ********************/
 
 .rtl {}                           /* for sites that are read right to left (i.e. hebrew) */
-.home {}                          /* home page */
+
+.home {
+
+	img.noHome {display: none;}
+
+	.article-footer /* .tags */ {display: none; }
+
+}                          		/* home page */
+
+
 .blog {}                          /* blog template page */
 .archive {}                       /* archive page */
 .date {}                          /* date archive page */
@@ -290,6 +301,7 @@ POSTS & CONTENT STYLES
 			border-radius: 3px;
 			margin-bottom: 1.5em;
 			border: 1px solid $border-color;
+			/* 5-24-15 */	border: none;
 
 			header {
 				border-bottom: 1px solid $light-gray;
@@ -316,6 +328,8 @@ POSTS & CONTENT STYLES
 		.single-title {}
 
 		.page-title {}
+
+		/* 5-24-15
 
 		.entry-title, .page-title, .single-title, .search-title {
 			background: $bcgray;
@@ -348,10 +362,24 @@ POSTS & CONTENT STYLES
 				color: $bcblue;
 			}
 
+
 			.ribbonTitle:after {
 				height: 1.32em; //1.58em;
 				margin-top: -63px; //-58px;
 			}
+
+		} */
+
+		.entry-title, .entry-title, .page-title, .single-title, .search-title {
+
+			a {
+				color: $bcgray;
+
+				&:hover {
+					color: $bcblue;
+				}
+			}
+
 		}
 
 		.archive-title {}

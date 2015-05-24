@@ -58,10 +58,6 @@
 		  ga('send', 'pageview');
 
 		</script>
-
-<style>
-.home img.noHome {display: none;}
-</style>
 		
 		<?php // end analytics ?>
 
