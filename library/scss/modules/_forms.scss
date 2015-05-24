@@ -163,9 +163,10 @@ form.mc4wp-form {
   label {
     color: $bcgray;
     margin-bottom: 15px;
-    font-size: 34px;
+    font-size: 22px; //34px;
     font-family: $bcheaderfont;
     font-weight: $bcheaderfontweight;
+    font-weight: bold;
   }
   input {
     text-align: center;
