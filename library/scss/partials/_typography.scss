@@ -16,7 +16,8 @@ http://alistapart.com/column/responsive-typography-is-a-physical-discipline
 ******************************************************************/
 
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700);
-$bcheaderfont: 'Amatic SC', script;
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic);
+$bcheaderfont: 'Lato', sans-serif;
 $bcheaderfontweight: 700;
 
 
