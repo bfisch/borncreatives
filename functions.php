@@ -237,7 +237,7 @@ add_filter( 'the_content_more_link', 'remove_more_link_scroll' );
 
 add_filter( 'the_content_more_link', 'modify_read_more_link' );
 function modify_read_more_link() {
-  return '<a class="more-link" href="' . get_permalink() . '"><br>Read More...</a>';
+  return '<a class="more-link" href="' . get_permalink() . '">Read More</a>';
 }
 
 /************** Adding Social Network to the customize panel ****************/
