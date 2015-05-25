@@ -160,5 +160,9 @@ jQuery(document).ready(function($) {
     $('.subscribeContainer').removeClass('active');
   })
 
+  $(document).keyup(function(e) {
+    if (e.keyCode == 27) $('.subscribeContainer').removeClass('active'); //esc
+  });
+
 
 }); /* end of as page load scripts */
