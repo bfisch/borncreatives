@@ -153,7 +153,12 @@ jQuery(document).ready(function($) {
 
   $('.pin_text a').attr('target', '_blank');
 
+  $('#mc4wp-form-1').prepend('<span class="notInterested subClose subHide">x</span>')
 
+
+  $('.subscribeContainer .notInterested').click(function() {
+    $('.subscribeContainer').removeClass('active');
+  })
 
 
 }); /* end of as page load scripts */

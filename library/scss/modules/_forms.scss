@@ -194,3 +194,53 @@ form.mc4wp-form {
   }
 }
 
+.subscribeContainer .subHide {
+  display: none;
+}
+
+.subscribeContainer.active {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.85);
+
+  form {
+    position: relative;
+    width: 40%;
+    left: 30%;
+    top: 30%;
+    outline: 1px solid white;
+    outline-offset: 10px;
+  }
+
+  .subHide {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    color: white;
+  }
+
+  .subModal {
+    font-size: 30px;
+    //border-bottom: 1px solid #bbb;
+    //max-width: 25%;
+    margin: 0 auto;
+  }
+
+  .notInterested {
+    //text-decoration: underline;
+    cursor: hand;
+    cursor: pointer;
+  }
+
+  .subClose {
+    text-align: right;
+    text-decoration: none;
+    width: 101%;
+  }
+
+}
+
