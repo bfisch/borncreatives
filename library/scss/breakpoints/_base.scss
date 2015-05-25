@@ -600,6 +600,14 @@ POSTS & CONTENT STYLES
 		outline-offset: 5px;
 		color: #444;
 		text-transform: uppercase;
+		text-shadow: 0px 0px 0px black;
+
+		&:hover {
+			background-color: $bcblue;
+			outline-color: darken($bcblue, 5%);
+			color: white;
+			text-shadow: none;
+		}
 	}
 
 /******************************************************************
